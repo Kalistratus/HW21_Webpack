@@ -15,7 +15,10 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      template: 'src/assets/test.html'
+    })
   ],
   module: {
     rules: [

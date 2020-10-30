@@ -1,11 +1,4 @@
-// import "./style.css";
-// console.log("hello_world");
-
-
-// import FilmCardItem from "./film-item/film-item";
-
-// const film = new FilmCardItem;
-// film.render();
+import "./style.css";
 
 import List from "./list/list";
 
